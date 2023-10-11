@@ -1,11 +1,26 @@
+
+
 img{
+	display: flex;
 	height: 50px;
 	width: 50px;
 }
 h1{
 	text-align: center;
-	display: inline-block;
 }
 header{
+	display: flex;
+	justify-content: center;
 	border-bottom: black dashed 2px ;
 }
+div{
+	display: block;
+	margin: 0 auto;
+	width: 900px;
+}
+div:hover{
+	border-radius: 24px;
+}
+.orange{
+	background-color: rgb(252, 186, 5);
+} 
