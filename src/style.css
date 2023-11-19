@@ -1,10 +1,13 @@
 p{
 	padding: 20px;
 }
+body{
+	margin: 0px;
+}
 nav{
 	flex: 1 1 auto;
 }
-img{
+img.header{
 	display: flex;
 	height: 50px;
 	width: 50px;
@@ -31,22 +34,40 @@ div:hover{
 .purple{
 	background: rgb(252, 5, 174);
 }
-.Cyan{
+.cyan{
    background: rgb(5, 252, 244);
 }
 footer{
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
+	margin: 0;
 	width: 100%;
     height: 100px;
-    background: repeating-linear-gradient( 45deg, red, red 50px, 
-orange 50px, orange 100px, 
-yellow 100px, yellow 150px,
-green 150px, green 200px,
-blue 200px, blue 250px,
-purple 250px, purple 300px);	
+    background: repeating-linear-gradient( 45deg, red, red 30px, 
+orange 30px, orange 60px, 
+yellow 60px, yellow 90px,
+green 90px, green 120px,
+blue 120px, blue 150px,
+purple 150px, purple 180px);	
 }
 h2{
 	text-align: center;
+}
+.games1{
+	position: relative;
+	left: 25px;
+}
+.games2{
+	position: relative;
+	left: 250px;
+}
+.book{
+	width: 40%;
+	height: 50%;
+	position: relative;
+	left: 25px;
+}
+.music{
+	width: 150px;
+	height: 300px;
+	position: relative;
+	left: 300px;
 }
